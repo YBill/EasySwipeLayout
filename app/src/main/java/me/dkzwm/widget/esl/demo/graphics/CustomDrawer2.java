@@ -133,7 +133,7 @@ public class CustomDrawer2 extends Drawer {
                 mBackgroundFixedSize / 5 * 4,
                 0,
                 mBackgroundFixedSize);
-        mBackgroundPath.offset(mWidth, downPoint.y - mBackgroundFixedSize / 2f);
+        mBackgroundPath.offset(mWidth, movedPoint.y - mBackgroundFixedSize / 2f);
         canvas.drawPath(mBackgroundPath, mBackgroundPaint);
         if (size >= mBackgroundMaxDynamicSize / 2.5f) {
             final int x = mWidth - size;
