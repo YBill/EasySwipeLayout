@@ -19,6 +19,7 @@
         </activity>
         <activity android:name=".ui.XmlCustomActivity"/>
         <activity android:name=".ui.CodeCustomActivity"/>
+        <activity android:name=".ui.BezierActivity" />
     </application>
 
 </manifest>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.BezierActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="二阶贝塞尔曲线"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <me.dkzwm.widget.esl.demo.widget.SecondBezierView
+            android:layout_width="200dp"
+            android:layout_height="200dp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="三阶贝塞尔曲线"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <me.dkzwm.widget.esl.demo.widget.ThirdBezierView
+            android:layout_width="200dp"
+            android:layout_height="200dp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="自定义贝塞尔曲线，左边滑动出来"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <me.dkzwm.widget.esl.demo.widget.CustomBezierView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp" />
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

@@ -6,4 +6,5 @@
     <string name="only_supports_right_side_swipe">测试只支持右侧拉出</string>
     <string name="only_supports_left_side_swipe">测试只支持左侧拉出</string>
     <string name="test_code_custom">代码自定义</string>
+    <string name="test_bezier">贝塞尔曲线</string>
 </resources>
